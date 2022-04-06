@@ -4,3 +4,5 @@
 
 ## Integrantes
 - Kenneth Riveiro
+- Edgar Merida
+

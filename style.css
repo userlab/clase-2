@@ -1,11 +1,35 @@
 .nav-bar {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row-reverse;
+    padding: 5px;
+    padding-top: 0px;
+    align-items: center;
+    align-content: center;
+    font-family: arial;
+    font-size: smaller;
 }
 
-.nav-bar > * {
-    margin-left: 15px;
+.nav-bar a {
+    margin: 10px;
+    color: black;
+    text-decoration:none;
+}
+
+.icon {
+  width: 2%;
+  height: 2%;
+}
+
+.nav-bar button {
+    background-color: rgba(10, 114, 233, 0.829);
+    color: white;
+    text-decoration:none;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    height: 40px;
+    width: 10vw;
+   
 }
 
 .content {
@@ -13,21 +37,42 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    
+    
 }
 
 .content > * {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+  
 }
 
 .row {
     /* border: 1px solid green; */
     display: flex;
+
 }
 
 .row > button {
     margin-left: 15px;
+    height: 35px;
+    border: none;
+    background-color: #f0f0f0;
+    width: 10vw;
 }
 
 .logo {
-    margin-top: 200px;
+    margin-top: 100px;
+}
+
+.formulario{
+    border-radius: 40px;
+    border: solid rgb(216, 216, 216);
+    height: 40px;
+    width: 40vw;
+}
+
+.texto{
+    font-family:Arial;
+    font-size: smaller;
 }
