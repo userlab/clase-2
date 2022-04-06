@@ -4,3 +4,4 @@
 
 ## Integrantes
 - Kenneth Riveiro
+- Alex Galindo
