@@ -1,0 +1,54 @@
+.nav-bar {
+    height: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.nav-bar #acceder {
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(54, 81, 180);
+    padding: 5px 15px;
+}
+.nav-bar img {
+    width:30px;
+}
+.nav-bar > * {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.content {
+    /* border: 1px solid blue; */
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.content input{
+    width: 25%;
+    height: 20px;
+    border-radius: 10px;
+}
+.content > * {
+    margin-bottom: 20px;
+}
+
+.row {
+    /* border: 1px solid green; */
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row > button {
+    border-radius: 10px;
+    /* margin-left: 15px; */
+} 
+/* 
+.logo {
+    margin-top: 200px;
+} */
