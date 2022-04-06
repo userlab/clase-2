@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8" />
-
-    <title>Google</title>
-
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
-
   <body>
-    <div class="nav-bar">
-      <button>Acceder</button>
-
-      <a href="https://www.google.com.mx/imghp">Imágenes</a>
-
-      <a href="https://mail.google.com/mail/">Gmail</a>
-    </div>
-
-    <div class="content">
-      <img
-        class="logo"
-        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
-        height="92"
-        width="272"
-      />
-
-      <input />
-
-      <div class="row">
-        <button>Buscar con Google</button>
-
-        <button>Me siento con suerte</button>
+    <nav>
+      <div class="hdr-btn">
+        <a href="#">Amail</a>
+        <a href="#">Imágenes</a>
+        <div class="ham-menu">
+          <img src="./images/outline_dialpad_black_24dp.png" alt="menu" />
+        </div>
+        <div class="photo-profile">
+          <img src="./images/pixlr-bg-result.png" alt="Foto" />
+        </div>
       </div>
-
-      <div>
-        Ofrecido por google en:
-
-        <a href="https://www.google.com/setprefs?sig=0_KPNkEfiG_aV_JEvdFPPPG8zQB4U%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjy9JqT_f32AhWGKUQIHc5xAbEQ2ZgBCA4">English</a>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="logo">
+          <img src="./images/Andres_logo.png" alt="Logo" />
+        </div>
+        <div class="search-cont">
+          <div class="inner-cont">
+            <div class="lupa">
+              <img src="./images/outline_search_black_24dp.png" alt="lupa" />
+            </div>
+            <input type="text" />
+            <div class="mic">
+              <img src="./images/outline_mic_black_24dp.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="lw-btn">
+          <button>Buscar con Andrés</button>
+          <button>Me siento con suerte</button>
+        </div>
       </div>
-    </div>
+      <div class="fn-text">
+        <p>Ofrecido por Andrés en:</p>
+        <a href="#">Español</a>
+      </div>
+    </section>
+    <footer>
+      <div class="location"><p>Argentina</p></div>
+      <div class="lists">
+        <div class="fst-list">
+          <ul>
+            <li><a href="#">Sobre Andrés</a></li>
+            <li><a href="#">Publicidad</a></li>
+            <li><a href="#">Negocios</a></li>
+            <li><a href="#">Còmo funciona la Búsqueda</a></li>
+          </ul>
+        </div>
+        <div class="scnd-list">
+          <ul>
+            <li><a href="#">Privacidad</a></li>
+            <li><a href="#">Condiciones</a></li>
+            <li><a href="#">Preferencias</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
