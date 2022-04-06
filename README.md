@@ -4,3 +4,4 @@
 
 ## Integrantes
 - Kenneth Riveiro
+- Carlos Alberto Morales 
