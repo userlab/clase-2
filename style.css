@@ -4,7 +4,7 @@
     flex-direction: row-reverse;
 }
 
-.nav-bar > * {
+.nav-bar>* {
     margin-left: 15px;
 }
 
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-.content > * {
+.content>* {
     margin-bottom: 20px;
 }
 
@@ -24,10 +24,26 @@
     display: flex;
 }
 
-.row > button {
+.row>button {
     margin-left: 15px;
 }
 
 .logo {
     margin-top: 200px;
+}
+
+.search {
+    width: 40%;
+    border-radius: 25px;
+    height: 40px;
+}
+
+.foo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.foo>* {
+    margin-left: 50px;
 }
