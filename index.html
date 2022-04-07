@@ -1,43 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Google</title>
-
-    <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <div class="nav-bar">
-      <button>Acceder</button>
-
-      <a href="https://www.google.com.mx/imghp">Imágenes</a>
-
-      <a href="https://mail.google.com/mail/">Gmail</a>
-    </div>
-
-    <div class="content">
+    <nav class="nav-top">
+      <a href="#">Gmail</a>
+      <a href="#">Imágenes</a>
+      <img src="img/dot-menu.png" alt="Dot Menu" class="icon" />
+      <img src="img/profile-picture.jpg" alt="Profile Picture" />
+    </nav>
+    <main class="content">
       <img
-        class="logo"
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        alt="Google Logo Color"
+        class="logo"
         height="92"
         width="272"
       />
-
-      <input />
-
-      <div class="row">
-        <button>Buscar con Google</button>
-
-        <button>Me siento con suerte</button>
+      <div class="search">
+        <img src="img/search.png" alt="search-icon" class="icon" />
+        <input type="text" class="search-bar" />
+        <img src="img/voice-search.png" alt="audio-search-icon" class="icon" />
       </div>
-
       <div>
-        Ofrecido por google en:
-
-        <a href="https://www.google.com/setprefs?sig=0_KPNkEfiG_aV_JEvdFPPPG8zQB4U%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjy9JqT_f32AhWGKUQIHc5xAbEQ2ZgBCA4">English</a>
+        <button class="btn">Buscar con Google</button>
+        <button class="btn">Me siento con suerte</button>
       </div>
-    </div>
+      <div>
+        Ofrecido por Google en:
+        <a href="#">Español (Latinoamérica)</a>
+      </div>
+    </main>
   </body>
 </html>
