@@ -4,3 +4,4 @@
 
 ## Integrantes
 - Kenneth Riveiro
+- Jonathan Anchundia Correo: jjanchundia92@gmail.com
